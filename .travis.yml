@@ -13,5 +13,5 @@ script:
     - cd examples/FullFunction
     - platformio ci -l ../.. FullFunction.ino --board=$BOARD
     - cd ../GetStarted
-    - platformio ci -l ../.. GetStarted.ino --board=$BOARD
+    - platformio ci -l ../.. getStarted.ino --board=$BOARD
 
