@@ -11,7 +11,7 @@ install:
 
 script:
     - cd examples/FullFunction
-    - platformio ci -l ../../src FullFunction.ino --board=$BOARD
+    - platformio ci -l ../.. FullFunction.ino --board=$BOARD
     - cd ../GetStarted
-    - platformio ci -l ../../src GetStarted.ino --board=$BOARD
+    - platformio ci -l ../.. GetStarted.ino --board=$BOARD
 
